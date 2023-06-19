@@ -1,0 +1,22 @@
+uuid: dadf7ed3-6a6d-4f37-8b54-6f312be7b034
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - olivero_child
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: olivero_child_breadcrumbs
+theme: olivero_child
+region: breadcrumb
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

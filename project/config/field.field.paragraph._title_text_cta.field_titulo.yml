@@ -1,0 +1,19 @@
+uuid: 3c35e3eb-04be-4973-974a-eeb7b9f3779f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titulo
+    - paragraphs.paragraphs_type._title_text_cta
+id: paragraph._title_text_cta.field_titulo
+field_name: field_titulo
+entity_type: paragraph
+bundle: _title_text_cta
+label: Titulo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

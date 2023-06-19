@@ -1,0 +1,135 @@
+uuid: d967d351-8bd1-4505-a606-510e3cbcf31a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph._title_text_cta.field_color
+    - field.field.paragraph._title_text_cta.field_enlace
+    - field.field.paragraph._title_text_cta.field_texto
+    - field.field.paragraph._title_text_cta.field_titulo
+    - paragraphs.paragraphs_type._title_text_cta
+  module:
+    - layout_builder
+    - layout_discovery
+    - link
+    - options
+    - text
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+        components:
+          cf8b3782-18a8-42f2-9513-61732771b49b:
+            uuid: cf8b3782-18a8-42f2-9513-61732771b49b
+            region: content
+            configuration:
+              id: 'field_block:paragraph:_title_text_cta:field_titulo'
+              label: Titulo
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: inline
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: 67-33
+        components:
+          948958d6-2760-442f-84b2-0f8b08998fb6:
+            uuid: 948958d6-2760-442f-84b2-0f8b08998fb6
+            region: first
+            configuration:
+              id: 'field_block:paragraph:_title_text_cta:field_texto'
+              label: Texto
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: inline
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          0e53cd5a-e051-4ecd-982d-ec62108488b9:
+            uuid: 0e53cd5a-e051-4ecd-982d-ec62108488b9
+            region: second
+            configuration:
+              id: 'field_block:paragraph:_title_text_cta:field_enlace'
+              label: Enlace
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: link
+                label: hidden
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: '0'
+                  target: '0'
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: paragraph._title_text_cta.default
+targetEntityType: paragraph
+bundle: _title_text_cta
+mode: default
+content:
+  field_color:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: first
+  field_enlace:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_texto:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_titulo:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

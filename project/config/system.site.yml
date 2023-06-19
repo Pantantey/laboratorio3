@@ -1,8 +1,8 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: 54ccea2c-047e-4595-a41c-4da6c01358f5
-name: 'EW Training Sandbox'
+uuid: 06259740-3c5d-49c5-a0da-770b144da8e3
+name: 'Drush Site-Install'
 mail: admin@example.com
 slogan: ''
 page:

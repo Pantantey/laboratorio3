@@ -1,0 +1,23 @@
+uuid: 22f65ca2-3f1e-4eed-8fc1-a59b40c25c87
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - olivero_child
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: olivero_child_syndicate
+theme: olivero_child
+region: footer
+weight: -6
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

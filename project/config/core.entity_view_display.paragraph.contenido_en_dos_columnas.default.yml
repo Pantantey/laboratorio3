@@ -1,0 +1,86 @@
+uuid: 3936f6ce-ebb3-4f5b-b660-16a186610e80
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.contenido_en_dos_columnas.field_columna_derecha
+    - field.field.paragraph.contenido_en_dos_columnas.field_columna_izquierda
+    - paragraphs.paragraphs_type.contenido_en_dos_columnas
+  module:
+    - entity_reference_revisions
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: 50-50
+        components:
+          218b7593-ace7-4f57-806d-ea2379c5663e:
+            uuid: 218b7593-ace7-4f57-806d-ea2379c5663e
+            region: first
+            configuration:
+              id: 'field_block:paragraph:contenido_en_dos_columnas:field_columna_izquierda'
+              label: columna_izquierda
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_revisions_entity_view
+                label: hidden
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          bb2a045a-0da7-4477-9336-f96def9a8075:
+            uuid: bb2a045a-0da7-4477-9336-f96def9a8075
+            region: second
+            configuration:
+              id: 'field_block:paragraph:contenido_en_dos_columnas:field_columna_derecha'
+              label: columna_derecha
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_revisions_entity_view
+                label: hidden
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: paragraph.contenido_en_dos_columnas.default
+targetEntityType: paragraph
+bundle: contenido_en_dos_columnas
+mode: default
+content:
+  field_columna_derecha:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_columna_izquierda:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,22 @@
+uuid: bc6ba055-8545-41a9-a9fb-2a2194d4750d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - olivero_child
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: olivero_child_content
+theme: olivero_child
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

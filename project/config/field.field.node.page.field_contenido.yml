@@ -1,0 +1,29 @@
+uuid: 9974d1e4-f3f2-47a7-a155-312eacd3b886
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contenido
+    - node.type.page
+  module:
+    - entity_reference_revisions
+id: node.page.field_contenido
+field_name: field_contenido
+entity_type: node
+bundle: page
+label: Contenido
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+    target_bundles_drag_drop:
+      _title_text_cta:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

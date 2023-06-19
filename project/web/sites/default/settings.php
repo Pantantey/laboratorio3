@@ -679,9 +679,9 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * header spoofing.
  *
  * To enable the trusted host mechanism, you enable your allowable hosts
- * in $settings['trusted_host_patterns']. This should be an array of regular
- * expression patterns, without delimiters, representing the hosts you would
- * like to allow.
+  in $settings['trusted_host_patterns']. This should be an array of regular
+  expression patterns, without delimiters, representing the hosts you would
+  like to allow.
  *
  * For example:
  * @code
@@ -775,6 +775,8 @@ if (file_exists(__DIR__ . '/settings.ddev.php') && getenv('IS_DDEV_PROJECT') == 
  * Keep this code block at the end of this file to take full effect.
  */
 #
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
+ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+   include $app_root . '/' . $site_path . '/settings.local.php';
+ }
+
+ $settings['default_content_deploy_content_directory'] = '../content';

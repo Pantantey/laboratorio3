@@ -1,0 +1,10 @@
+uuid: 2edfe33e-36b1-45ff-89ed-655e0db2bf33
+langcode: en
+status: true
+dependencies: {  }
+id: _title_text_cta
+label: ' title text cta'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

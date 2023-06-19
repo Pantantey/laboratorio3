@@ -1,0 +1,15 @@
+title:
+  label: "Title"
+  description: "Title cta"
+  fields:
+    text:
+      type: string
+      label: Title cta
+      description: Title for all cta
+      preview: "My title"
+  libraries:
+    -
+      title:
+        css:
+          component:
+            css/styles.css: {}

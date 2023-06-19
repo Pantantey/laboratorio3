@@ -1,0 +1,15 @@
+text:
+  label: "Text"
+  description: "Text cta"
+  fields:
+    text:
+      type: string
+      label: text cta
+      description: Text 
+      preview: "This is a text"
+  libraries:
+    -
+      text:
+        css:
+          component:
+            css/styles.css: {}
