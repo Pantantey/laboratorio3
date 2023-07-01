@@ -1,10 +1,10 @@
-button:
-  label: "Button"
-  description: "Button component"
+cta:
+  label: "cta"
+  description: "cta component"
   fields:
     text:
       type: string
-      label: Button text
+      label: cta text
       description: Text to be placed on the botton
       preview: "Read More"
     url:
@@ -14,7 +14,7 @@ button:
       preview: htttps://google.com
   libraries:
     -
-      button:
+      cta:
         css:
           component:
             css/styles.css: {}

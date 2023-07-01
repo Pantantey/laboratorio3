@@ -4,12 +4,12 @@
             "href": ""
         },
         "type": {
-            "href": "https:\/\/8080-pantantey-laboratorio3-76t6osiv07i.ws-us100.gitpod.io\/rest\/type\/paragraph\/_title_text_cta"
+            "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/rest\/type\/paragraph\/_title_text_cta"
         }
     },
     "id": [
         {
-            "value": 6
+            "value": 4
         }
     ],
     "uuid": [
@@ -67,29 +67,9 @@
             "lang": "en"
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true,
-            "lang": "en"
-        }
-    ],
     "field_color": [
         {
             "value": "grey"
-        }
-    ],
-    "field_enlace": [
-        {
-            "uri": "http:\/\/youtube.com",
-            "title": "youtube",
-            "options": []
-        }
-    ],
-    "field_texto": [
-        {
-            "value": "<p>La historia de andrey es demasiado triste<\/p>",
-            "format": "basic_html",
-            "processed": "<p>La historia de andrey es demasiado triste<\/p>"
         }
     ],
     "field_titulo": [

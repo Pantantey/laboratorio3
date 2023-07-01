@@ -4,17 +4,17 @@
             "href": ""
         },
         "type": {
-            "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/rest\/type\/paragraph\/_title_text_cta"
+            "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/rest\/type\/paragraph\/cta"
         }
     },
     "id": [
         {
-            "value": 1
+            "value": 18
         }
     ],
     "uuid": [
         {
-            "value": "3bff02b0-6230-401e-b43d-f50d74227028"
+            "value": "0184c1de-2893-4c1e-8651-e584ba7ae9c1"
         }
     ],
     "langcode": [
@@ -25,7 +25,7 @@
     ],
     "type": [
         {
-            "target_id": "_title_text_cta"
+            "target_id": "cta"
         }
     ],
     "status": [
@@ -36,24 +36,9 @@
     ],
     "created": [
         {
-            "value": "2023-06-19T05:39:21+00:00",
+            "value": "2023-07-01T22:17:16+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
-        }
-    ],
-    "parent_id": [
-        {
-            "value": "3"
-        }
-    ],
-    "parent_type": [
-        {
-            "value": "paragraph"
-        }
-    ],
-    "parent_field_name": [
-        {
-            "value": "field_columna_derecha"
         }
     ],
     "behavior_settings": [
@@ -67,14 +52,17 @@
             "lang": "en"
         }
     ],
-    "field_color": [
+    "revision_translation_affected": [
         {
-            "value": "orange"
+            "value": true,
+            "lang": "en"
         }
     ],
-    "field_titulo": [
+    "field_cta": [
         {
-            "value": "Juanito"
+            "uri": "http:\/\/www.slifrawig.edu",
+            "title": "Bene commodo ille. Abdo camur causa haero ille importunus iriure ullamcorper vero verto.",
+            "options": []
         }
     ]
 }

@@ -19,12 +19,12 @@
     },
     "id": [
         {
-            "value": 3
+            "value": 17
         }
     ],
     "uuid": [
         {
-            "value": "e6e78d71-0bc6-4094-b963-f71afe754f74"
+            "value": "a18acf8b-bece-4d1b-b0d6-51a98629007c"
         }
     ],
     "langcode": [
@@ -46,14 +46,14 @@
     ],
     "created": [
         {
-            "value": "2023-06-19T05:39:21+00:00",
+            "value": "2023-07-01T22:15:02+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "parent_id": [
         {
-            "value": "1"
+            "value": "4"
         }
     ],
     "parent_type": [
@@ -77,6 +77,12 @@
             "lang": "en"
         }
     ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
     "_embedded": {
         "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/rest\/relation\/paragraph\/contenido_en_dos_columnas\/field_columna_derecha": [
             {
@@ -90,10 +96,10 @@
                 },
                 "uuid": [
                     {
-                        "value": "3bff02b0-6230-401e-b43d-f50d74227028"
+                        "value": "d85440a5-3abb-49fe-9a16-0d4062b93a67"
                     }
                 ],
-                "target_revision_id": "10"
+                "target_revision_id": "29"
             }
         ],
         "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/rest\/relation\/paragraph\/contenido_en_dos_columnas\/field_columna_izquierda": [
@@ -108,10 +114,10 @@
                 },
                 "uuid": [
                     {
-                        "value": "7f56fa78-38fe-4b8a-8f3d-b54c41793b52"
+                        "value": "728802fb-6b3a-4653-94e3-706aed124a1e"
                     }
                 ],
-                "target_revision_id": "11"
+                "target_revision_id": "31"
             }
         ]
     }

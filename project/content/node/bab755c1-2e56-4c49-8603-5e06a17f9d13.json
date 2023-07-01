@@ -1,19 +1,19 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/node\/1?_format=hal_json"
+            "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/node\/4?_format=hal_json"
         },
         "type": {
             "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/rest\/type\/node\/page"
         },
         "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/rest\/relation\/node\/page\/revision_uid": [
             {
-                "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/user\/0?_format=hal_json"
+                "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/user\/1?_format=hal_json"
             }
         ],
         "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/rest\/relation\/node\/page\/uid": [
             {
-                "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/user\/0?_format=hal_json",
+                "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
@@ -28,12 +28,12 @@
     },
     "nid": [
         {
-            "value": 1
+            "value": 4
         }
     ],
     "uuid": [
         {
-            "value": "01b578f4-c3b6-43a4-b949-537ff5d237ca"
+            "value": "bab755c1-2e56-4c49-8603-5e06a17f9d13"
         }
     ],
     "langcode": [
@@ -49,7 +49,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-06-19T05:41:29+00:00",
+            "value": "2023-07-01T22:41:27+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -58,7 +58,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/user\/0?_format=hal_json"
+                        "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/rest\/type\/user\/user"
@@ -66,7 +66,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "e22e72b2-c7c5-43a0-a2c1-442039e353c7"
+                        "value": "b096866f-0fc2-47eb-bb63-2d7909cdd048"
                     }
                 ]
             }
@@ -75,7 +75,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/user\/0?_format=hal_json"
+                        "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/rest\/type\/user\/user"
@@ -83,7 +83,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "e22e72b2-c7c5-43a0-a2c1-442039e353c7"
+                        "value": "b096866f-0fc2-47eb-bb63-2d7909cdd048"
                     }
                 ],
                 "lang": "en"
@@ -96,15 +96,15 @@
                         "href": ""
                     },
                     "type": {
-                        "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/rest\/type\/paragraph\/contenido_en_dos_columnas"
+                        "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/rest\/type\/paragraph\/_title_text_cta"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "e6e78d71-0bc6-4094-b963-f71afe754f74"
+                        "value": "1bb41823-bfd5-4e16-81ee-6f94b722d939"
                     }
                 ],
-                "target_revision_id": "12"
+                "target_revision_id": "27"
             },
             {
                 "_links": {
@@ -112,15 +112,15 @@
                         "href": ""
                     },
                     "type": {
-                        "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/rest\/type\/paragraph\/_title_text_cta"
+                        "href": "https:\/\/8080-pantantey-laboratorio3-ex0t8jjxtdz.ws-us101.gitpod.io\/rest\/type\/paragraph\/contenido_en_dos_columnas"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "38bbbfff-f20f-4ceb-aef2-6d5f8ce0b66b"
+                        "value": "a18acf8b-bece-4d1b-b0d6-51a98629007c"
                     }
                 ],
-                "target_revision_id": "13"
+                "target_revision_id": "32"
             }
         ]
     },
@@ -132,20 +132,20 @@
     ],
     "title": [
         {
-            "value": "Las historias m\u00e1s tragicas",
+            "value": "Final final",
             "lang": "en"
         }
     ],
     "created": [
         {
-            "value": "2023-06-19T05:39:15+00:00",
+            "value": "2023-07-01T22:13:42+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-06-19T05:41:29+00:00",
+            "value": "2023-07-01T22:41:27+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -183,9 +183,9 @@
     ],
     "body": [
         {
-            "value": "<p>son historias demasiado tragicas<\/p>",
+            "value": "<p>dsadsaasdasdadsasdadsasdadsasdadsasdasdasdadsasddas<\/p>",
             "format": "basic_html",
-            "processed": "<p>son historias demasiado tragicas<\/p>",
+            "processed": "<p>dsadsaasdasdadsasdadsasdadsasdadsasdasdasdadsasddas<\/p>",
             "summary": "",
             "lang": "en"
         }

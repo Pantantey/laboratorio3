@@ -1,0 +1,41 @@
+.card__title-text-cta {
+    padding: 1em;
+}
+
+.card__title-text-cta--orange {
+    background-color: #C44B12;
+    color: white;
+}
+
+.card__title-text-cta--blue {
+    background-color: #185b74;
+    color: white;
+}
+.card__title-text-cta--grey,
+.card__title-text-cta--default {
+    background-color: #8a8a8a;
+    color: white;
+}
+
+.card__title-text-cta h5.card__title {
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+.card__title-text-cta h5.card__title {
+    color: white;
+}
+
+.card__title-text-cta .card__cta {
+    padding: 2em 0;
+    text-align: right;
+}
+
+.card__title-text-cta .card__cta {
+    padding: 2em 0;
+    text-align: right;
+}
+
+.cards{
+    margin-bottom: 2em;
+}

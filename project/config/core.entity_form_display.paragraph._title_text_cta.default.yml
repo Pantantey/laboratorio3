@@ -4,13 +4,12 @@ status: true
 dependencies:
   config:
     - field.field.paragraph._title_text_cta.field_color
-    - field.field.paragraph._title_text_cta.field_enlace
+    - field.field.paragraph._title_text_cta.field_cta1
     - field.field.paragraph._title_text_cta.field_texto
     - field.field.paragraph._title_text_cta.field_titulo
     - paragraphs.paragraphs_type._title_text_cta
   module:
-    - link
-    - text
+    - paragraphs
 id: paragraph._title_text_cta.default
 targetEntityType: paragraph
 bundle: _title_text_cta
@@ -22,17 +21,27 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_enlace:
-    type: link_default
-    weight: 4
+  field_cta1:
+    type: paragraphs
+    weight: 6
     region: content
     settings:
-      placeholder_url: ''
-      placeholder_title: ''
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
     third_party_settings: {  }
   field_texto:
-    type: text_textarea
-    weight: 1
+    type: string_textarea
+    weight: 7
     region: content
     settings:
       rows: 5

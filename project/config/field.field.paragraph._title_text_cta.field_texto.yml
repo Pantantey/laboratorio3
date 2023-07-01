@@ -1,21 +1,19 @@
-uuid: 08cbfa59-49cf-42cd-aca5-c54a906f94a2
+uuid: a046e70b-00c6-4eae-902d-f77bda78ec15
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_texto
     - paragraphs.paragraphs_type._title_text_cta
-  module:
-    - text
 id: paragraph._title_text_cta.field_texto
 field_name: field_texto
 entity_type: paragraph
 bundle: _title_text_cta
 label: Texto
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text_long
+field_type: string_long
